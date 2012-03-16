@@ -1,4 +1,4 @@
-require 'spree_last_address_hooks'
+require 'spree_core'
 
 module SpreeLastAddress
   class Engine < Rails::Engine
