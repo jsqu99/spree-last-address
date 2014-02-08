@@ -1,5 +1,3 @@
-require 'find_address'
-
 module Spree
   Admin::OrdersController.class_eval do
     before_filter :fix_addresses, :only => [:update]
